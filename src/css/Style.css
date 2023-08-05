@@ -1,0 +1,42 @@
+.maindiv{
+    height: 882px;
+    background: rgb(142 190 196);;
+    border: 10px ridge rgb(2,141,127);
+}
+
+.center{
+   padding: 29px;
+}
+
+.mainInput{
+    text-align: center;
+}
+
+.InpField{
+    border-radius: 7px;
+    height: 35px;
+}
+
+.btnadd{
+    margin-left: 5px;
+    width: 80px;
+    border-radius: 10px;
+    height: 35px;
+}
+
+.maindeldiv{
+    text-align: center;
+    padding: 10px;
+}
+
+.btnremove{
+    width: 120px;
+    height: 40px;
+    border-radius: 16px;
+    font-size: 19px;
+}
+
+.removediv{
+    text-align: center;
+    padding: 20px;
+}
