@@ -35,7 +35,12 @@ const Todo = () => {
 
                 </div>
                 <div className='removediv'>
-                    <button className='btnremove btn btn-warning' onClick={() => dispatch(removeTodo())}>Remove All</button>
+                    {
+                        list.length > 1 && (
+                            <button className='btnremove btn btn-warning' onClick={() => dispatch(removeTodo())}>Remove All</button>
+                        )
+                    }
+                   
                 </div>
             </div>
         </div>
